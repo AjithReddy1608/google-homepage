@@ -1,15 +1,23 @@
 <html>
     <title>Google design by AJITH REDDY</title>
     <style>
+        head{
+            align-self: start;
+        }
         footer{
             background-color: lightgray;
             float: right;
             bottom: 0;
             width: 100%;
-            height: 23px;
-        }
-        image{
-            object-position: 100% 50%;
+            height: 30px;
+            position: absolute;
+        }  
+        #logo{
+            display: block;
+            margin: auto;
+            margin-top: 150px;
+            width: 300px;
+            height: auto;
         }
         button {
             font-family: Arial;
@@ -32,11 +40,11 @@
         }
         .button3{
             position: absolute;
-            right: 60px;
+            right: 120px;
         }
         .button4{
             position: absolute;
-            right: 0px;
+            right: 60px;
         }
         .button5{
             position: absolute;
@@ -62,14 +70,60 @@
             position: absolute;
             right: 0px;
         }
+        .button11{
+            position: absolute;
+            right: 0px;
+            background-color: yellowgreen;
+        }
+        .button12{
+            position:absolute;
+            left: 225px;
+        }
+        .button13{
+            position:absolute;
+            left: 325px;
+        }
+        #search-bar{
+            position: relative;
+            left: 45px;
+            top: 17px;
+            background-image: url(./magnifying-glass.jpg);
+            background-position: 4px 7px;
+            background-repeat: no-repeat;
+            background-size: 30px;
+            padding-left: 38px;
+            width: 530px;
+            height: 44px;
+            z-index: 1;
+            margin: auto;
+            border: 1px solid #dfe1e5;
+            border-radius: 24px;
+            -webkit-tap-highlight-color: transparent;
+        }
+        #mic{
+            position: relative;
+            transform: scale(.42);
+            right: 20px;
+            top: 6px;
+            opacity: .9;
+            z-index: 2;
+        }
     </style>
+    <head>
     <button class="button button1"> About </button>
     <button class="button button2"> Store </button>
     <button class="button button3"> Gmail </button>
     <button class="button button4"> Images </button>
+    <button class="button button11"> Sign in  </button>
+    </head>
     <body>
-        <img style="-webkit-user-select:none; display:block; margin:auto; padding:env(safe-area-inset-top) 
-        env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+        <img id= "logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+        <form>
+            <input id="search-bar" type="text">
+            <img alt="" id="mic" src="./mic.jpg">
+        </form>
+        <button class="button button12" href="./search.html">Google Search</button>
+        <button class="button button13">I'm Feeling Lucky</button>
     </body>
     <footer>
         <button class="button button5"> Advertising </button>
