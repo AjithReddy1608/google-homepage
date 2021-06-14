@@ -1,8 +1,9 @@
 <html>
     <title>Google design by AJITH REDDY</title>
     <style>
-        head{
-            align-self: start;
+        header {
+            position: fixed;
+            top: 5;
         }
         footer{
             background-color: lightgray;
@@ -24,7 +25,7 @@
             font-size: 13px;
             color:black;
             font-style: normal;
-            font-weight: 400;
+            font-weight: 450;
             font-stretch: 100%;
         }
         .button hover{
@@ -40,11 +41,11 @@
         }
         .button3{
             position: absolute;
-            right: 120px;
+            left: 460px;
         }
         .button4{
             position: absolute;
-            right: 60px;
+            left: 510px;
         }
         .button5{
             position: absolute;
@@ -72,7 +73,7 @@
         }
         .button11{
             position: absolute;
-            right: 0px;
+            left: 600px;
             background-color: yellowgreen;
         }
         .button12{
@@ -83,45 +84,49 @@
             position:absolute;
             left: 325px;
         }
+        #imgbtn{
+            position:absolute;
+            left: 100px;
+        }
+        #nine-dots {
+            width: 25px;
+            height:25px;
+            position:absolute;
+            left: 575px;
+        }
         #search-bar{
             position: relative;
             left: 45px;
             top: 17px;
-            background-image: url(./magnifying-glass.jpg);
-            background-position: 4px 7px;
-            background-repeat: no-repeat;
-            background-size: 30px;
+            background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMUAAAD/CAMAAAB2B+IJAAAA2FBMVEX///9ChfTrQzX8vAU0qFP8uACDxZMqpk2MyJr4xMHrPzDqLxs9g/T+6LjqNCL8twAXokLr9u4pevM1f/ROjPXqOSj9wgAoqlNPjfXqLBb61NLqNzfwPDMvffPa5fxEh/Rwn/aOsvjsUUXylpDxhH3tXFHwfHWah1D1+f7t8/6rxfmaufjK2vvU4fyiv/nB1PuHrff/9OD+68D4w8D85eP+4aphlvXpIwb2trL85uX8wij9zmHuZVv91X7//fjznJf+8NHyfQ/zhCzsVEiXvpJplUyOj1aos4xoWmvyAAADZUlEQVR4nO3aW1faQBSGYQhVaxJDmxgrWM5Kldp6QgUPoLW1//8fNYFMEnBCRddiBtb7XA652F9m9gSY5HIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQ2eHRoeoS3umwU6+4ruvVO0ucpFHx7HzI9irfVRfzRlXbyye8WlV1QW9x7Nr5NLvyQ3VJ86u6+WmVI9VFza1mv0hh76oual4/vRchgsnoqC5rTrIQ+XxNdVnzOalIUyxZg5/K58JbrqfG1cveHvV3XXVhc6lJQyzbLiWfimVrb1LogxT6IIU+slJsqy5sLqTQByn0QQp9kEIfpNAHKfRBCn2sdorV+D+KFIu30ilW439avVOcbY2di4GMBZWk2LzYDF101RQsdVlcGymIge2MFFfigqblhK57agqW2lorjImBesYpzKm4wDRGnAs1BUudRynWBtGA9Ig1n/fiQ1YrSlFWVLHMmUhxFg1IzuxDrji370YprL6qkmWKUYpLMSA92EuO9Xr+OEVJSbVZbqK+uBUDx7LJcOMXWu7GfWE+qSk3w31hqjFkZ8VeQ3zYjxaU31JTboa4veMlldudjpFss7lhtKCcTRXFZhNb7U08cjgVo5KEGEQhNGuLXO5WLKmtZOw09YaU7TaSD1pRCrO9+EJneoh2qUJhkAxW667n2bbtVdx66k01sc0alk5PixGxSyXbVOio06hf1RsnE+93NaMHt9lcbImvEH8JKV7+58q26ApLp68fkXgyig8zr2s5hrZTkeqMncdZy70lmsIoadcVofvxmtr5tVfKfgzsxyH8/QXWNgcRIrjNGc/k/oHoCcM0Flvcq4XfbEchghvdlC2XoWUa8XrS6VfehPNiFCK41dbB1LIaDM14IoIQGu5PwuXjXlyn6ZitsngE9i/aViqDUdLpl+oLvetUqYbvWP5Bu31nWJZjGksTIpcrWxPlBlMSMKaGZuxhmug/OcZsflPbxk4ZlqZv/uREaPqcmNa9y8wRbF1aPrGlynclX5rhSfuOmNAdmpafnhHTd0rt5ZmHWLfX9p2vY37pqbVc05D2+8/zt8DzX9WFvMv6xpfQxkfVhbzL+saHECk0QAp9kEIfpNAHKfSx/mlsXXUh7/JZUF0IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsv0DuxQ/LSMCDsoAAAAASUVORK5CYII="), url("https://www.clipartmax.com/png/middle/279-2795130_search-magnifying-glass-search-icon-transparent.png");
+            background-position: 510px 0px, 4px 7px;
+            background-repeat: no-repeat, no-repeat;
+            background-size: 36px, 25px;
             padding-left: 38px;
-            width: 530px;
-            height: 44px;
+            width: 550px;
+            height: 40px;
             z-index: 1;
             margin: auto;
             border: 1px solid #dfe1e5;
             border-radius: 24px;
             -webkit-tap-highlight-color: transparent;
         }
-        #mic{
-            position: relative;
-            transform: scale(.42);
-            right: 20px;
-            top: 6px;
-            opacity: .9;
-            z-index: 2;
-        }
     </style>
-    <head>
-    <button class="button button1"> About </button>
-    <button class="button button2"> Store </button>
-    <button class="button button3"> Gmail </button>
-    <button class="button button4"> Images </button>
-    <button class="button button11"> Sign in  </button>
-    </head>
+    <header>
+        <button class="button button1"> About </button>
+        <button class="button button2"> Store </button>
+        <button class="button button3"> Gmail </button>
+        <button class="button button4"> Images </button>
+        <button class="button button11"> Signin  </button>
+        <a href><img id="nine-dots" src="https://github.com/andrewjh271/google-homepage/blob/master/nine-dots.jpg?raw=true"></a>
+    </header>
     <body>
         <img id= "logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-        <form>
-            <input id="search-bar" type="text">
-            <img alt="" id="mic" src="./mic.jpg">
-        </form>
+        <div class="bar">
+            <form>
+                <input id="search-bar" type="text">
+            </form>
+        </div>
         <button class="button button12" href="./search.html">Google Search</button>
         <button class="button button13">I'm Feeling Lucky</button>
     </body>
